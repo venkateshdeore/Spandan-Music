@@ -1,0 +1,85 @@
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, div {
+    display: block;
+}
+* {font-size-adjust: 0.58;
+font-family: Helvetica, Arial, sans-serif;
+}
+body{
+	background-color: #f3f3f3;
+}
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.lside
+{
+	padding: 0;
+}
+#collapse-button{
+	display: none;
+}
+#close
+{
+	display:none;
+}
+#active1{
+	background-color: #ccccb3;
+	color: black;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /*max-width: 300px;*/
+    margin: auto;
+    text-align: center;
+}
+.margin-card{
+    margin-left: :15px;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.card: button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card: a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+ @media only screen and (max-width: 800px)
+ {
+ 	#collapse-button{
+ 		display: inline;
+ 	}
+ 	#leftmenu{
+ 		display: none;
+ 	}
+ 	#close{
+ 		display:inline;
+ 	}
+    #modal_song_id{
+        display: none;
+    }
+ }
