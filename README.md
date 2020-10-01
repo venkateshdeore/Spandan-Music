@@ -26,3 +26,5 @@ An interactive website for online music listening and sharing.
 4. Make sure that only one copy of the song exists on the server even if uploaded with different name.
 5. Implement queue for the songs which allows user to add/remove song from queue.
 6. Allow users to mark any particular song/album as private, so that no one else can see it or add it to their own account.
+
+Awesome project
